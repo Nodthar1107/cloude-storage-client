@@ -1,0 +1,17 @@
+.text-field-container {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.submit-button {
+    width: 100%
+}
+
+.to-registration-form-link-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.to-registration-form-link-container__link {
+    text-decoration: none;
+}

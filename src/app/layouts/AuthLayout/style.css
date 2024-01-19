@@ -1,0 +1,38 @@
+.auth-layout-container {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+
+    flex-direction: column;
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.logo-container__image {
+    height: 150px;
+    cursor: pointer;
+}
+
+.auth-form {
+    border-radius: 16px;
+    border: 1px solid rgb(157, 200, 255);
+    padding: 10px 20px;
+}
+
+.auth-form:has(input:focus) {
+    border-color: rgb(53, 89, 199);
+}
+
+.auth-form__header {
+    text-align: center;
+}

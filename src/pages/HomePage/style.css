@@ -1,0 +1,39 @@
+.home-page {
+    position: relative;
+}
+
+.home-page-content {
+    display: flex;
+    box-sizing: border-box;
+
+    flex-direction: row;
+
+    min-height: 100vh;
+}
+
+.home-page-content__left {
+    width: 40%;
+    min-height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-content__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 60%;
+    border-radius: 1px solid black;
+}
+
+.home-page-content__header {
+    font-size: 3em;
+    margin-left: 20px;
+}
+
+.home-page-content__promo {
+    height: 300px;
+}
